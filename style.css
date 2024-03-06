@@ -1,0 +1,44 @@
+:root{
+    --cor-pri: #4F98CA;    
+    --cor-ativo: #50D890;    
+    --cor-num: #EFFFFB;
+    --cor-del: #F33535;
+    --cor-fundo: #272727;
+}
+
+
+main{
+    background-color: var(--cor-fundo);
+    height: 100vh;
+}
+
+
+.box{
+    color: var(--cor-num);
+    font-size: 2rem;
+    border: 1px solid var(--cor-pri);
+    width: 75%;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.btn-teclado{
+    background-color: transparent;
+    color: var(--cor-num);
+    border: 2px solid var(--cor-pri);
+    border-radius: .5rem;
+    transition: .4s;
+}
+.btn-del{
+    background-color: var(--cor-del);
+    border-radius: .25rem;
+
+}
+.btn-sinal{
+    border-radius: 0rem .5rem .5rem 0;
+}
+.btn-on{
+    background-color: var(--cor-ativo);
+    color: black;
+    border: 2px solid var(--cor-ativo);
+}
